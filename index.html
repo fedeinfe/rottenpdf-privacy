@@ -36,20 +36,20 @@
 <main>
 
 <h1>RottenPDF — Privacy Policy</h1>
-<p class="updated">Last updated: 30 July 2026 · <a href="#it">Versione italiana</a></p>
+<p class="updated">Last updated: 10 October 2026 · <a href="#it">Versione italiana</a></p>
 
-<p class="lede">RottenPDF collects nothing, sends nothing, and stores nothing outside your device.
-This page exists because the app stores require a privacy policy, not because there is much to
-disclose.</p>
+<p class="lede">RottenPDF reads your documents on your device and never uploads them. From version
+1.1 the app shows ads, and the company that provides them — Google — collects some data in order to
+do so. This page says what that data is, and what stays out of it.</p>
 
 <h2>The short version</h2>
 <ul>
-  <li><strong>No data is collected.</strong> Not by us, not by anyone else.</li>
-  <li><strong>No data is shared</strong> with third parties, because none is gathered in the first place.</li>
-  <li><strong>No account, no sign-up, no login.</strong> The app has no concept of a user identity.</li>
-  <li><strong>No advertising, no analytics, no crash reporting, no telemetry</strong> of any kind.</li>
-  <li><strong>No network requests.</strong> The app does not talk to any server, ours or anyone's. It works with the device offline.</li>
-  <li><strong>Completely free.</strong> No subscription, no in-app purchases, no ads, no paid tier.</li>
+  <li><strong>Your documents never leave your device.</strong> Not to us, and not to the ad provider.</li>
+  <li><strong>We collect nothing ourselves.</strong> RottenPDF has no server, no account, no sign-up and no analytics of its own.</li>
+  <li><strong>The app shows ads from Google AdMob.</strong> To serve and measure them, Google's software inside the app collects device identifiers, your IP address, how you interact with ads, and diagnostics.</li>
+  <li><strong>You decide whether ads may be personalised</strong>, and you can change that choice at any time.</li>
+  <li><strong>Ads never interrupt reading.</strong> They are a banner at the edge of the screen and, occasionally, a full-screen ad before a document opens or after you have closed it.</li>
+  <li><strong>Free to use.</strong> Every feature works without paying. An optional subscription, RottenPDF Plus, removes the ads; the payment is handled by Apple or Google and we never see it.</li>
 </ul>
 
 <h2>What happens to your documents</h2>
@@ -60,35 +60,91 @@ anywhere.</p>
 <p>The text is turned into speech by the text-to-speech engine that is already part of your
 operating system, using the voices already installed on your device. Which voices exist, and how
 they behave, is governed by your operating system, not by RottenPDF.</p>
+<p>The content of your documents — their text, their titles, what you have read and how far — is
+never passed to the advertising software. Ads are not chosen from what you read.</p>
 <p>Deleting a document from the app's library deletes the app's copy. Deleting the app removes
 everything the app ever stored.</p>
 
+<h2>Reading a web page from a link</h2>
+<p>If you paste a link, RottenPDF downloads that page from its website, the way a browser would, in
+order to read it aloud. The website you asked for therefore sees a request from your device, as it
+would if you opened the page in any browser. The text is then kept on your device like any other
+document. RottenPDF never fetches a page you did not ask for.</p>
+
+<h2>Advertising</h2>
+<p>Ads in RottenPDF are provided by <strong>Google AdMob</strong> through the Google Mobile Ads SDK,
+and consent is collected through Google's User Messaging Platform. To show ads, limit how often you
+see the same one, measure them and detect fraud, this software collects and sends to Google:</p>
+<ul>
+  <li><strong>Device identifiers</strong> — on Android, the advertising ID; on iOS, the advertising identifier only if you allow tracking when the system asks, otherwise an identifier limited to this app;</li>
+  <li><strong>Your IP address</strong>, from which an approximate location (country, city area) can be estimated;</li>
+  <li><strong>Ad interactions</strong> — which ads were shown and whether you tapped them;</li>
+  <li><strong>Diagnostics and performance data</strong> of the advertising software, such as crash logs and loading times.</li>
+</ul>
+<p>Google processes this data under its own privacy policy, and may share it with its advertising
+partners. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and
+<a href="https://policies.google.com/technologies/partner-sites">How Google uses information from
+apps that use its services</a>. We do not receive this data and cannot identify you from it; what
+we see in our AdMob account are totals — how many ads were shown, in which countries.</p>
+<p>Ads are restricted to content suitable for a general audience.</p>
+
+<h2>RottenPDF Plus</h2>
+<p>RottenPDF Plus is an optional monthly subscription that removes all ads. It is bought through
+the App Store on iOS and through Google Play on Android, with the account and the payment method
+you already have there. Apple or Google processes the payment under its own privacy policy; we
+receive no name, no email address and no payment details, and we keep no record of who has
+subscribed.</p>
+<p>To know whether to show ads, the app asks the store, on your device, whether a subscription is
+active for your store account. That answer stays on the device. While Plus is active the app
+requests no ads, and from the next time it is opened the advertising software is not started: no
+consent form is shown and no ad is requested.</p>
+<p>The subscription renews every month until you cancel, which you can do at any time from your
+App Store or Google Play account. Refunds are handled by Apple or Google.</p>
+
+<h2>Your choices</h2>
+<div class="box">
+  <p><strong>In the European Economic Area, the United Kingdom and Switzerland</strong>, the app asks
+  for your consent before any personalised ad is requested. You can refuse, or choose purpose by
+  purpose. To change your mind later, open the menu in the library and choose
+  <em>Privacy choices</em>.</p>
+  <p><strong>iOS.</strong> The system asks whether RottenPDF may track your activity across other
+  companies' apps and websites. If you choose <em>Ask App Not to Track</em>, the advertising
+  identifier is not available to the app and ads are not based on it. You can change this in
+  Settings → Privacy &amp; Security → Tracking.</p>
+  <p><strong>Android.</strong> You can reset or delete your advertising ID in Settings → Google →
+  Ads (the exact path depends on your device). With the ID deleted, ads are not personalised with
+  it.</p>
+</div>
+<p>Whatever you choose, the app works in exactly the same way. Refusing only makes the ads generic.</p>
+
 <h2>How you can verify this</h2>
 <div class="box">
-  <p><strong>Android.</strong> RottenPDF does not declare the <code>INTERNET</code> permission in its
-  manifest. An Android app without that permission is prevented by the operating system from opening
-  a network connection at all — regardless of what its code tries to do. You can see the app's
-  permission list on its Google Play store page.</p>
-  <p><strong>iOS.</strong> The app contains no networking code and no third-party SDKs that
-  communicate off-device. Its App Store privacy details declare that no data is collected, which
-  Apple requires to be accurate.</p>
+  <p><strong>Android.</strong> The app's permission list on Google Play shows network access and
+  the advertising ID, which are what the two features above need — and nothing else: no access to
+  your contacts, location, camera, microphone or files outside the documents you open yourself.</p>
+  <p><strong>iOS.</strong> The App Store privacy details list the data the advertising software
+  collects, which Apple requires to be accurate. No other third-party software in the app
+  communicates off the device.</p>
 </div>
 
 <h2>Children</h2>
-<p>RottenPDF is suitable for all ages and does not knowingly collect personal information from
-anyone, children included — it does not collect personal information from anyone at all.</p>
+<p>RottenPDF is not directed at children and does not knowingly collect personal information from
+them. Ads are limited to content rated for a general audience.</p>
 
 <h2>Your rights</h2>
-<p>Regulations such as the GDPR and the CCPA give you rights over personal data a company holds
-about you: access, correction, deletion, portability, and objection. In the case of RottenPDF there
-is no personal data held about you anywhere, so there is nothing for us to disclose, correct,
-export, or erase. The data on your device is under your control and is removed when you delete the
-app.</p>
+<p>Regulations such as the GDPR and the CCPA give you rights over personal data held about you:
+access, correction, deletion, portability, and objection. We hold no personal data about you — no
+account, no profile, no copy of your documents — so there is nothing for us to disclose, correct,
+export, or erase. For the data collected by Google to provide ads, you can exercise those rights
+with Google directly, and you can withdraw your consent in the app at any time as described above.
+The data on your device is under your control and is removed when you delete the app.</p>
 
 <h2>Changes to this policy</h2>
-<p>If a future version of RottenPDF ever needs to send something off the device — it does not
-today — this page will be updated before that version ships, and the change will be described in
-the app's release notes.</p>
+<p>Version 1.1 introduced advertising and the optional RottenPDF Plus subscription. Earlier versions
+of this policy stated that the app made no network requests, showed no ads and had no paid tier:
+that was true up to version 1.0 and is no longer the case. Any
+future change of this kind will be described here before the version that brings it is released,
+and in the app's release notes.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy: <a href="mailto:fede.infe1@gmail.com">fede.infe1@gmail.com</a></p>
@@ -96,22 +152,22 @@ the app's release notes.</p>
 <hr>
 
 <h1 id="it" lang="it">RottenPDF — Informativa sulla privacy</h1>
-<p class="updated" lang="it">Ultimo aggiornamento: 30 luglio 2026</p>
+<p class="updated" lang="it">Ultimo aggiornamento: 10 ottobre 2026</p>
 
 <div lang="it">
 
-<p class="lede">RottenPDF non raccoglie niente, non manda niente e non conserva niente fuori dal tuo
-dispositivo. Questa pagina esiste perché gli store pretendono un'informativa, non perché ci sia
-molto da dichiarare.</p>
+<p class="lede">RottenPDF legge i tuoi documenti sul tuo dispositivo e non li carica mai da nessuna
+parte. Dalla versione 1.1 l'app mostra annunci, e l'azienda che li fornisce — Google — per farlo
+raccoglie alcuni dati. Questa pagina dice quali sono, e che cosa ne resta fuori.</p>
 
 <h2>In breve</h2>
 <ul>
-  <li><strong>Nessun dato viene raccolto.</strong> Né da noi, né da terzi.</li>
-  <li><strong>Nessun dato viene condiviso</strong> con terze parti, perché non ne viene raccolto nessuno.</li>
-  <li><strong>Nessun account, nessuna registrazione, nessun login.</strong> L'app non ha alcuna nozione di identità dell'utente.</li>
-  <li><strong>Nessuna pubblicità, nessun analytics, nessun crash reporting, nessuna telemetria.</strong></li>
-  <li><strong>Nessuna richiesta di rete.</strong> L'app non parla con nessun server, nostro o di altri. Funziona con il dispositivo offline.</li>
-  <li><strong>Completamente gratuita.</strong> Nessun abbonamento, nessun acquisto in-app, nessuna pubblicità, nessuna versione a pagamento.</li>
+  <li><strong>I tuoi documenti non lasciano mai il dispositivo.</strong> Non vanno a noi, e non vanno a chi fornisce gli annunci.</li>
+  <li><strong>Noi non raccogliamo niente.</strong> RottenPDF non ha un server, non ha account, non ha registrazione e non ha analytics propri.</li>
+  <li><strong>L'app mostra annunci di Google AdMob.</strong> Per servirli e misurarli, il software di Google dentro l'app raccoglie identificatori del dispositivo, il tuo indirizzo IP, come interagisci con gli annunci e dati diagnostici.</li>
+  <li><strong>Decidi tu se gli annunci possono essere personalizzati</strong>, e puoi cambiare idea in qualsiasi momento.</li>
+  <li><strong>Gli annunci non interrompono mai la lettura.</strong> Sono un banner al bordo dello schermo e, ogni tanto, un annuncio a tutto schermo prima che un documento si apra o dopo che lo hai chiuso.</li>
+  <li><strong>Gratuita da usare.</strong> Ogni funzione va senza pagare. Un abbonamento facoltativo, RottenPDF Plus, toglie gli annunci; il pagamento lo gestisce Apple o Google e noi non lo vediamo mai.</li>
 </ul>
 
 <h2>Cosa succede ai tuoi documenti</h2>
@@ -122,35 +178,95 @@ distanza, non viene trasmessa da nessuna parte.</p>
 <p>Il testo viene trasformato in voce dal motore di sintesi vocale che fa già parte del tuo sistema
 operativo, con le voci già installate sul dispositivo. Quali voci esistano e come si comportino lo
 decide il sistema operativo, non RottenPDF.</p>
+<p>Il contenuto dei tuoi documenti — il testo, i titoli, che cosa hai letto e fin dove — non viene
+mai passato al software degli annunci. Gli annunci non vengono scelti in base a ciò che leggi.</p>
 <p>Eliminare un documento dalla libreria dell'app elimina la copia dell'app. Disinstallare l'app
 rimuove tutto quello che l'app ha conservato.</p>
 
+<h2>Leggere una pagina web da un link</h2>
+<p>Se incolli un link, RottenPDF scarica quella pagina dal suo sito, come farebbe un browser, per
+leggerla ad alta voce. Il sito che hai chiesto vede quindi una richiesta dal tuo dispositivo, come
+succederebbe aprendo la pagina in qualsiasi browser. Il testo resta poi sul dispositivo come ogni
+altro documento. RottenPDF non scarica mai una pagina che non hai chiesto tu.</p>
+
+<h2>Pubblicità</h2>
+<p>Gli annunci in RottenPDF sono forniti da <strong>Google AdMob</strong> attraverso il Google Mobile
+Ads SDK, e il consenso viene raccolto con la User Messaging Platform di Google. Per mostrare gli
+annunci, limitare quante volte vedi lo stesso, misurarli e riconoscere le frodi, questo software
+raccoglie e invia a Google:</p>
+<ul>
+  <li><strong>Identificatori del dispositivo</strong> — su Android l'ID pubblicità; su iOS l'identificatore pubblicitario solo se consenti il tracciamento quando il sistema lo chiede, altrimenti un identificatore limitato a questa app;</li>
+  <li><strong>Il tuo indirizzo IP</strong>, da cui si può stimare una posizione approssimativa (paese, zona della città);</li>
+  <li><strong>Le interazioni con gli annunci</strong> — quali sono stati mostrati e se li hai toccati;</li>
+  <li><strong>Dati diagnostici e di prestazione</strong> del software pubblicitario, come i log degli arresti anomali e i tempi di caricamento.</li>
+</ul>
+<p>Google tratta questi dati secondo la propria informativa e può condividerli con i suoi partner
+pubblicitari. Vedi le <a href="https://policies.google.com/privacy?hl=it">Norme sulla privacy di
+Google</a> e <a href="https://policies.google.com/technologies/partner-sites?hl=it">Come Google
+utilizza le informazioni delle app che usano i suoi servizi</a>. Noi non riceviamo questi dati e non
+possiamo identificarti a partire da essi: nel nostro account AdMob vediamo dei totali — quanti
+annunci sono stati mostrati, in quali paesi.</p>
+<p>Gli annunci sono limitati ai contenuti adatti a un pubblico generico.</p>
+
+<h2>RottenPDF Plus</h2>
+<p>RottenPDF Plus è un abbonamento mensile facoltativo che toglie tutti gli annunci. Si acquista
+dall'App Store su iOS e da Google Play su Android, con l'account e il metodo di pagamento che hai
+già lì. Il pagamento lo tratta Apple o Google secondo la propria informativa; noi non riceviamo
+nessun nome, nessun indirizzo email e nessun dato di pagamento, e non teniamo un elenco di chi si è
+abbonato.</p>
+<p>Per sapere se mostrare gli annunci, l'app chiede allo store, sul tuo dispositivo, se per il tuo
+account dello store c'è un abbonamento attivo. Quella risposta resta sul dispositivo. Finché Plus è
+attivo l'app non richiede annunci, e dalla volta successiva in cui la apri il software
+pubblicitario non viene avviato: nessun modulo del consenso, nessuna richiesta di annunci.</p>
+<p>L'abbonamento si rinnova ogni mese finché non lo disdici, cosa che puoi fare in qualsiasi
+momento dal tuo account App Store o Google Play. I rimborsi li gestisce Apple o Google.</p>
+
+<h2>Le tue scelte</h2>
+<div class="box">
+  <p><strong>Nello Spazio economico europeo, nel Regno Unito e in Svizzera</strong> l'app chiede il
+  tuo consenso prima di richiedere qualsiasi annuncio personalizzato. Puoi rifiutare, o scegliere
+  finalità per finalità. Per cambiare idea in seguito, apri il menu della libreria e scegli
+  <em>Preferenze sulla privacy</em>.</p>
+  <p><strong>iOS.</strong> Il sistema chiede se RottenPDF può tracciare la tua attività nelle app e
+  nei siti web di altre aziende. Se scegli <em>Chiedi all'app di non eseguire il tracciamento</em>,
+  l'identificatore pubblicitario non è disponibile per l'app e gli annunci non si basano su di esso.
+  Puoi cambiarlo in Impostazioni → Privacy e sicurezza → Tracciamento.</p>
+  <p><strong>Android.</strong> Puoi reimpostare o eliminare il tuo ID pubblicità in Impostazioni →
+  Google → Annunci (il percorso esatto dipende dal dispositivo). Con l'ID eliminato, gli annunci non
+  vengono personalizzati con esso.</p>
+</div>
+<p>Qualunque cosa tu scelga, l'app funziona esattamente allo stesso modo. Rifiutare rende solo gli
+annunci generici.</p>
+
 <h2>Come puoi verificarlo</h2>
 <div class="box">
-  <p><strong>Android.</strong> RottenPDF non dichiara il permesso <code>INTERNET</code> nel proprio
-  manifest. Un'app Android senza quel permesso è impedita dal sistema operativo di aprire una
-  connessione di rete, qualunque cosa provi a fare il suo codice. La lista dei permessi dell'app è
-  visibile sulla sua pagina su Google Play.</p>
-  <p><strong>iOS.</strong> L'app non contiene codice di rete né SDK di terze parti che comunichino
-  fuori dal dispositivo. I dettagli sulla privacy sull'App Store dichiarano che non viene raccolto
-  alcun dato, e Apple pretende che quella dichiarazione sia accurata.</p>
+  <p><strong>Android.</strong> La lista dei permessi dell'app su Google Play mostra l'accesso alla
+  rete e l'ID pubblicità, che sono ciò che serve alle due funzioni qui sopra — e nient'altro: nessun
+  accesso a contatti, posizione, fotocamera, microfono o file diversi dai documenti che apri tu.</p>
+  <p><strong>iOS.</strong> I dettagli sulla privacy sull'App Store elencano i dati raccolti dal
+  software pubblicitario, e Apple pretende che quella dichiarazione sia accurata. Nessun altro
+  software di terze parti nell'app comunica fuori dal dispositivo.</p>
 </div>
 
 <h2>Minori</h2>
-<p>RottenPDF è adatta a tutte le età e non raccoglie consapevolmente informazioni personali da
-nessuno, minori compresi — non raccoglie informazioni personali da nessuno, punto.</p>
+<p>RottenPDF non è rivolta ai minori e non raccoglie consapevolmente informazioni personali da loro.
+Gli annunci sono limitati ai contenuti classificati per un pubblico generico.</p>
 
 <h2>I tuoi diritti</h2>
-<p>Norme come il GDPR e il CCPA ti danno diritti sui dati personali che un'azienda detiene su di te:
-accesso, rettifica, cancellazione, portabilità, opposizione. Nel caso di RottenPDF non esistono dati
-personali su di te da nessuna parte, quindi non c'è nulla che possiamo comunicarti, correggere,
-esportare o cancellare. I dati sul tuo dispositivo sono sotto il tuo controllo e vengono rimossi
-quando disinstalli l'app.</p>
+<p>Norme come il GDPR e il CCPA ti danno diritti sui dati personali detenuti su di te: accesso,
+rettifica, cancellazione, portabilità, opposizione. Noi non deteniamo dati personali su di te —
+nessun account, nessun profilo, nessuna copia dei tuoi documenti — quindi non c'è nulla che possiamo
+comunicarti, correggere, esportare o cancellare. Per i dati raccolti da Google per fornire gli
+annunci puoi esercitare quei diritti direttamente presso Google, e puoi revocare il consenso
+dall'app in qualsiasi momento, come descritto sopra. I dati sul tuo dispositivo sono sotto il tuo
+controllo e vengono rimossi quando disinstalli l'app.</p>
 
 <h2>Modifiche a questa informativa</h2>
-<p>Se una versione futura di RottenPDF dovesse mai aver bisogno di mandare qualcosa fuori dal
-dispositivo — oggi non lo fa — questa pagina verrà aggiornata prima che quella versione venga
-pubblicata, e la modifica sarà descritta nelle note di rilascio dell'app.</p>
+<p>La versione 1.1 ha introdotto la pubblicità e l'abbonamento facoltativo RottenPDF Plus. Le
+versioni precedenti di questa informativa dicevano che l'app non faceva richieste di rete, non
+mostrava annunci e non aveva una versione a pagamento: era vero fino alla versione 1.0 e non lo è
+più. Ogni modifica futura di questo tipo verrà descritta qui prima che venga
+pubblicata la versione che la introduce, e nelle note di rilascio dell'app.</p>
 
 <h2>Contatti</h2>
 <p>Domande su questa informativa: <a href="mailto:fede.infe1@gmail.com">fede.infe1@gmail.com</a></p>
